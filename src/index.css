@@ -1,0 +1,87 @@
+body {
+  background-color: #444;
+  color: white;
+  margin: 20px;
+  font: 32px "Century Gothic", Futura, sans-serif;
+}
+
+.game {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.grid-container {
+	display: grid;
+}
+
+.board-row {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.board-column {
+	display: flex;
+  flex-flow: column nowrap;
+}
+
+.square {
+  background-color: #444;
+  color: white;
+  border: 1px solid #999;
+  padding: 0;
+  font-size: 84px;
+  text-align: center;
+  width: 45px;
+  height: 45px;
+  cursor: pointer;
+  font-size : 2.0vw;
+}
+
+.square:focus {
+  outline: none;
+  background-color: #222;
+  cursor: auto;
+}
+
+span {
+  float: right;
+  font-size: 60px;
+}
+
+.status {
+  margin-top: 20px;
+  font-size: 24px;
+}
+
+.status-text {
+  font-weight: bold;
+  float: right;
+}
+
+.difficulty {
+  margin-top: 20px;
+  background-color: #444;
+  width: 150px;
+  color: white;
+  height: 50px;
+  font-size: 24px;
+  margin-top: -10px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  border: 1px solid #999;
+}
+
+.restart {
+  background-color: #444;
+  color: white;
+  font-size: 24px;
+  margin-top: -10px;
+  width: 100px;
+  height: 50px;
+  border: 1px solid #999;
+}
+
+.insane {
+  color: red;
+}
