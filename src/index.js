@@ -246,7 +246,6 @@ function moveMouse(i, squares) {
   const clickCol = i % width;
 
   squares[mousePosition] = null;
-  const j = Math.floor(Math.random() * 3);
   if (mouseRow === clickRow) {
     if (mouseCol > clickCol) {
       let newPositions = [
