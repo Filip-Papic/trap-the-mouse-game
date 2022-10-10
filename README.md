@@ -1,4 +1,4 @@
-Old game i made, want to try out Github pages.
+Old game i made, want to try out Github pages. [Try it out](https://filip-papic.github.io/trap-the-mouse-game/)
 
 Trap the mouse
 ==============
