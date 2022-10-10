@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/trap-the-mouse-game/static/css/main.fb357f2a.css",
+    "main.js": "/trap-the-mouse-game/static/js/main.16bf72b9.js",
+    "index.html": "/trap-the-mouse-game/index.html",
+    "main.fb357f2a.css.map": "/trap-the-mouse-game/static/css/main.fb357f2a.css.map",
+    "main.16bf72b9.js.map": "/trap-the-mouse-game/static/js/main.16bf72b9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fb357f2a.css",
+    "static/js/main.16bf72b9.js"
+  ]
+}
